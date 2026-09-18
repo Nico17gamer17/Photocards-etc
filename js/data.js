@@ -23,9 +23,9 @@ const ERA_DATA = {
   bbokari: { text: "[Quiero que esta pequeña compañia te sirva de recordatorio de mi gran amor hacia ti]" },
   loveThings: [
     { title: "Algo que admiro de ti", text: "Como sigues adelante a pesar de todo y como logras superar los desafíos eres muy fuerte amor sigue asi" },
-    { title: "Un Recuerdo preciado", text: "Cuando dormimos en el piso de la casa de valentina fue simplemente hermoso" },
-    { title: "Algo que me hace sonreir", text: "Tu tu esencia como persona tu personalidad esos ojos tan lindos tu eres quien me" },
-    { title: "something I want to remember", text: "Esa hermosa forma que me miras recordar siempre como me mimas como me amas siempre siempre" }
+    { title: "Un Recuerdo preciado", text: "Cuando dormimos en el piso de la casa fue simplemente hermoso" },
+    { title: "Algo que me hace sonreir", text: "Tu tu esencia como persona tu personalidad esos ojos tan lindos tu eres quien me hace FELIZ" },
+    { title: "Algo que siempre recuerdo", text: "Esa hermosa forma que me miras recordar siempre como me mimas como me amas siempre siempre" }
   ],
   letter: {
     paragraphs: [

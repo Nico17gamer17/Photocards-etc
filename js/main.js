@@ -89,7 +89,7 @@ function renderPhotocards() {
     card.className = 'photocard-shell tone-' + item.tone;
     card.setAttribute('aria-label', 'Photocard ' + item.number + ': ' + item.title + '. Tap to turn.');
     card.innerHTML = '<span class="photocard-inner"><span class="photocard-face photocard-front">' +
-      '<span class="photocard-image"><img src="' + item.image + '" alt="" onerror="this.parentElement.classList.add(\'missing\'); this.remove()"><span>PHOTO / ART<br>PLACEHOLDER</span></span>' +
+      '<span class="photocard-image"><img src="' + item.image + '" alt="" onerror="this.parentElement.classList.add(\'missing\'); this.remove()"><span> <br> </span></span>' +
       '<span class="photocard-title">' + item.title + '</span><span class="photocard-subtitle">' + item.subtitle + '</span><span class="photocard-number">' + item.number + ' / 06</span>' +
       '</span><span class="photocard-face photocard-back"><strong>ERA 03</strong><span>17 / 09 / 26</span><small>' + item.note + '</small><b>' + item.number + ' / 06</b></span></span>';
     card.addEventListener('click', () => card.classList.toggle('flipped'));
