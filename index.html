@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d12">
+  <title>ERA 03 &mdash; Niko &amp; Dani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <main>
+    <section class="cover panel" id="cover" aria-labelledby="cover-title">
+      <div class="starfield" aria-hidden="true"></div><div class="cover-mark">N / D <span>03</span></div>
+      <div class="cover-content"><p class="eyebrow">Una muestra de mi amor &middot; 2026</p><h1 id="cover-title">ERA <em>03</em></h1><p class="names">NIKO <span>&mdash;</span> DANI</p><p class="serif-note">Nuestro pequeño universo de amor</p><button class="line-button" id="btn-enter" type="button">ENTER <span>-&gt;</span></button></div>
+      <p class="cover-foot">Lee tranquilamente todo esto esta hecho para ti</p>
+    </section>
+    <section class="section story-section" id="story"><div class="section-heading"><p class="eyebrow">01 / NUESTRA HISTORIA</p><h2>Un recuento de <em>Nosotros</em></h2><p class="section-intro"> Cuatro momentos infinitos recuerdos.</p></div><div class="timeline-layout"><div class="timeline" id="timeline" role="tablist" aria-label="Our story"></div><article class="story-card" id="story-card" aria-live="polite"></article></div></section>
+    <section class="section memories-section" id="memories"><div class="section-heading split-heading"><div><p class="eyebrow">02 / MEMORIAS</p><h2>A mantener ese  <em>Brillo</em></h2></div><p class="section-intro">Unos momentos que nunca olvidaré.</p></div><div class="memory-grid" id="memory-grid"></div></section>
+    <section class="section collection-section" id="collection"><div class="section-heading split-heading"><div><p class="eyebrow">03 / ERA 03 UNA COLECCION ESPECIAL</p><h2>seis pequeñas <em>piezas</em></h2></div><p class="section-intro">dale click para abrirlas </p></div><div class="photocard-grid" id="photocard-grid"></div><aside class="physical-note"><span class="physical-mark">CAJA / WEB</span><p id="physical-note"></p><span class="physical-arrow">Las dos Almas se conectan al leer el QR -&gt;</span></aside></section>
+    <section class="section bbokari-section" id="bbokari"><div class="bbookari-orbit orbit-one" aria-hidden="true">*</div><div class="bbookari-orbit orbit-two" aria-hidden="true">. . *</div><div class="bbokari-copy"><p class="eyebrow yellow">04 / UNA PEQUEÑA NOTA </p><h2>tu pequeña<br><em>compañia</em></h2><p id="bbokari-text"></p><div class="skzoo-tag">SKZOO DE FELIX <span>01</span></div></div><div class="bbokari-art" role="img" aria-label="BbokAri"><img class="bbokari-image" src="assets/img/bbokari.png" alt="BbokAri" loading="eager"></div></section>
+    <section class="section love-section" id="love"><div class="section-heading"><p class="eyebrow">05 / COSAS TUYAS QUE ME ENCANTAN</p><h2>La Lista <em>Sin fin</em></h2></div><div class="love-grid" id="love-grid"></div></section>
+    <section class="letter-section" id="letter"><div class="letter-wrap"><div class="letter-top"><p class="eyebrow">06 / CARTA</p><span>PARA MI DANI SIEMPRE</span></div><div class="letter-seal" aria-hidden="true">03</div><div class="letter-content"><p class="letter-date">17 . 09 . 26</p><h2>Una carta que salio<br><em>de mis mas profunfos sentimientos</em></h2><button class="dark-button" id="open-letter" type="button">ABRIR <span>-&gt;</span></button><div class="letter-body" id="letter-body"></div></div></div></section>
+    <section class="secret-section" id="secret"><div class="secret-stars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><svg class="constellation" viewBox="0 0 600 360" aria-hidden="true"><g class="constellation-lines"><line x1="135" y1="205" x2="235" y2="110"/><line x1="235" y1="110" x2="335" y2="165"/><line x1="335" y1="165" x2="420" y2="75"/><line x1="335" y1="165" x2="470" y2="245"/><line x1="135" y1="205" x2="270" y2="275"/></g><g class="constellation-dots"><circle cx="135" cy="205" r="3"/><circle cx="235" cy="110" r="3"/><circle cx="335" cy="165" r="3"/><circle cx="420" cy="75" r="3"/><circle cx="470" cy="245" r="3"/><circle cx="270" cy="275" r="3"/></g></svg><div class="secret-content"><p class="eyebrow">07 / Sin Fin</p><p class="secret-lead">Una cosa mas.</p><button class="line-button" id="discover" type="button">Abrir <span>-&gt;</span></button><div class="secret-reveal"><strong>03</strong><span>Tres hermosos meses</span><p id="secret-message"></p></div></div></section>
+    <section class="final-section" id="final"><p class="eyebrow">Fin De Este Pequeño cuento</p><h2>ERA <em>03</em></h2><p class="names">NIKO <span>&mdash;</span> DANI</p><p class="final-date">17.09.26</p><p class="final-message" id="final-message"></p><div class="final-star">*</div></section>
+  </main>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded memory"><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">&times;</button><img id="lightbox-image" alt=""><div id="lightbox-caption"></div></div>
+  <script src="js/data.js"></script><script src="js/main.js"></script>
+</body>
+</html>
